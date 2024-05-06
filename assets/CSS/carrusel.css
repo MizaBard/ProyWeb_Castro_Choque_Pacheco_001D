@@ -5,15 +5,14 @@
 
 .slider-wrapper {
     position: relative;
-    max-width: 48rem;
-    margin: 0 auto;
-
+    max-width: 20rem;
+    margin: auto;
+    margin-left: 10%;
 }
 
 /* esto contiene las imagenes */
 .slider {
     display: flex;
-    aspect-ratio:4/5;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
