@@ -9,6 +9,7 @@ function validarFormulario() {
     if (name === "" || email === "" || commissionType === "" || !paymentMethod) {
         alert("Por favor, completa todos los campos del formulario.");
         return false; // Detener el envío del formulario
+        
     }
 
     // Verificar el formato del correo electrónico
