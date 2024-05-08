@@ -1,6 +1,6 @@
 /* Estilos para los párrafos laterales */
 .parrafo-lateral {
-    width: 50%; /* Ajustar el ancho al 100% */
+    width: 100%; /* Ajustar el ancho al 100% */
     display: flex;
     justify-content: center; /* Centrar horizontalmente el contenido */
 }
