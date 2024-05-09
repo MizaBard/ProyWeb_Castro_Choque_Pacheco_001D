@@ -30,18 +30,21 @@
     <header class="header"> <!--Clase header-->
         <nav> <!--Nav viene de la palabra navigator o sea esta nos mandará a los links que esten dentro de esta misma o los podemos redireccionar donde sea deseado-->
             <ul class="sidebar"> <!--Clase barra lateral, contiene una lista y anclas(anchors) a las otras paginas de nuestro sitio web-->
+
                 <li onclick=hideSidebar()><a href="#"><i class="bi bi-x-lg"></i></a></li>
-                <li><a href="#">Inicio</a></li> <!-- link a index-->
+                <li><a href="index.html">Inicio</a></li> <!-- link a index-->
                 <li><a href="infoChan.html">Sobre Xan</a></li><!-- link a info chan-->
                 <li><a href="portfolio.html">Portafolio</a></li><!-- link a portafolio de imagenes-->
-                <li><a class="not-active">Comisiones</a></li>
+                <li><a class="not-active">Comisiones</a></li> <!--Link a patreon-->
+                <li><a href="registro.html">Registro</a></li> <!--Link a registro-->
             </ul> <!--unordered list -->
             <ul> <!--Esto cambia si es que lo veo de mi dispositivo movil  y me agrega un pequeño boton de menu lateral en la esquina superior izquierda-->
                 <li><img src="assets/imgs/logo chan 1500x512 v2.png" alt="logo"></li>
-                <li class="hideOnMobile"><a href="#">Inicio</a></li>
+                <li class="hideOnMobile"><a href="index.html">Inicio</a></li>
                 <li class="hideOnMobile"><a href="infoChan.html">Sobre Xan</a></li>
                 <li class="hideOnMobile"><a href="portfolio.html">Portafolio</a></li>
-                <li class="hideOnMobile"><a href="patreon.html">Comisiones</a></li>
+                <li class="hideOnMobile"><a>Comisiones</a></li>
+                <li class="hideOnMobile"><a href="registro.html">Registro</a></li>
                 <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
                   </svg></a></li>
@@ -49,6 +52,7 @@
         </nav>
     </header>
     <!-- Fin menu -->
+
     <div class="container">
         <div class="row">
             <div class="col-md-12">
