@@ -3,10 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 } 
+ body{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+ }
+
 /* color de fondo del pie de pagina con un ancho del 100% de esta misma */
 .pie{
     width: 100%;
-
     background-color: #393e46;
 }
   /* columna logo */
@@ -33,6 +38,7 @@
 }
 /* formato de letra de columna 2 (integrantes)+(siguenos) */
 .pie .grupo-1 .caja h2{
+    padding-top: 15px;
     color: rgb(255, 255, 255);
     margin-bottom: 25px;
     font-size: 20px;
