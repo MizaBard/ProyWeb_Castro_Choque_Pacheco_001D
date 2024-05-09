@@ -42,6 +42,16 @@ section h1
   font-family: sans-serif;
 }
 
+.parallax p{
+  text-align: left;
+  justify-content: left;
+}
+
+.no-parallax p{
+  text-align: center;
+  justify-content: center;
+}
+
 .no-parallax 
 {
   background-color: #323eac;
@@ -92,6 +102,7 @@ section h1
 iframe {
   display: block; /* Asegura que el video sea un elemento de bloque */
   margin: 0 auto; /* Centra el video horizontalmente */
+  padding: 15px;
 }
 
 
