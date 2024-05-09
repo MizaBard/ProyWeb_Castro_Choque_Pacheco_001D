@@ -1,5 +1,7 @@
 .container { 
     padding: 2rem;
+    display: flex; /* despliega la pantalla en la configiracion flex */
+    flex-direction: row; /* coloca los elementos en fila */
 } 
 /* contenedor de carousel */
 
