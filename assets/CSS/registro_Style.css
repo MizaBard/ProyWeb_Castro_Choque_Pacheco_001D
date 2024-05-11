@@ -1,0 +1,11 @@
+.container .title {
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    font-style: italic; /* Agrega cursiva */
+}
+.container .container_box
+{
+    text-align: center;
+}
