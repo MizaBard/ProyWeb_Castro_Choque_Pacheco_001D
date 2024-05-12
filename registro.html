@@ -48,9 +48,9 @@
     </header>
 
     <!-- Inicio Formulario-->
-    <form               
+    <form id="form"               
         class="container" 
-        action="#" method="POST">
+        action="" method="POST">
         <br>
         <div class="title"><h2>Formulario de Registro</h2></div>
         <br>
@@ -62,8 +62,8 @@
         </div> 
         <div class="container_box">   
 
-            <label for="Apellidos">Apellidos:</label><br>
-            <input type="text" id="apellidos" name="apellidos" required><br><br>
+            <label for="Apellido">Apellido:</label><br>
+            <input type="text" id="apellido" name="apellido" required><br><br>
 
         </div>
         <div class="container_box">    
@@ -96,7 +96,7 @@
         </div>    
 
             <div class="container_box">            
-                <input type="submit" value="Enviar">
+               <button type="submit">Registrarse</button>
             </div>
     </form>
 
@@ -126,7 +126,7 @@
         </div><!--cierre de la division  -->
     </footer> <!--cierre de seccion de footer -->
     <!-- Fin Footer -->
-    
+    <script src="assets/JS/validacionRegistro.js"></script>
     <!-- inicio de funciones de javascript para el header-->
     <script> /*apertura de javascript */
         function showSidebar(){
