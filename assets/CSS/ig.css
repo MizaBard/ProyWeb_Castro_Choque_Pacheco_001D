@@ -1,0 +1,8 @@
+  img {
+    width: calc(100% / 3);
+    float: left;
+  }
+  svg {
+    width: 50vw;
+    height: auto;
+  }
