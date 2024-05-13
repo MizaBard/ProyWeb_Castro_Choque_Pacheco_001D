@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/CSS/style_footer.css">
     <link rel="stylesheet" href="assets/CSS/registro_Style.css">
     <!-- fin de imports de estilo (css) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <!-- Favicon, icono de la pestaña, luego va el tamaño(para diferentes tipo de dispositivo)-->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/imgs/favicon/apple-touch-icon.png"><!-- este es para apple-->
     <link rel="icon" type="image/png" sizes="32x32" href="assets/imgs/favicon/avicon-32x32.png"><!-- este es para windows-->
@@ -50,53 +51,39 @@
     </header>
 
     <!-- Inicio Formulario-->
-    <form id="form"               
-        class="container" 
-        action="" method="POST">
+    <form class="container" 
+        action="#" id="registrationForm">
         <br>
         <div class="title"><h2>Formulario de Registro</h2></div>
         <br>
-        <div class="container_box">
-           
-            <label for="Nombre">Nombre:</label><br>
-            <input type="text" id="nombre" name="nombre" required><br><br>
-
-        </div> 
-        <div class="container_box">   
-
-            <label for="Apellido">Apellido:</label><br>
-            <input type="text" id="apellido" name="apellido" required><br><br>
-
-        </div>
-        <div class="container_box">    
-            <label for="Genero">Género:</label><br>
-                <select id="genero" name="genero" required>
-                    <option value="masculino">Masculino</option>
-                    <option value="femenino">Femenino</option>
-                    <option value="otro">Otro</option>
-                </select><br><br>
-        </div>
-        <div class="container_box">
-
-            <label for="Email">Email:</label><br>
-            <input type="email" id="email" name="email" required><br><br>
-
-        </div>
-
-        <div class="container_box">    
-
-            <label for="Apodo">Apodo:</label><br>
-            <input type="text" id="apodo" name="apodo" required><br><br>
-
-        </div>
-        
+        <br>
+        <br>
         <div class="container_box">
             
-            <label for="Fecha de nacimiento">Fecha de Nacimiento:</label><br>
-            <input type="date" id="fNac" name="fecha_nacimiento" required><br><br>
+            <label for="nombretxt">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" ><br><br>
 
-        </div>    
+        </div>
+        <br> 
+        <div class="container_box">   
 
+            <label for="email">Correo Electrónico:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+        </div>
+        <br>
+        <div class="container_box">    
+            <label for="password">Contraseña:</label><br>
+            <input type="password" id="password" name="password"><br><br>
+        </div>
+        <br>
+        <div class="container_box">
+
+            <label for="telefono">Teléfono:</label><br>
+            <input type="tel" id="telefono" name="telefono"><br><br>
+
+        </div>
+        <br>
             <div class="container_box">            
                <button type="submit">Registrarse</button>
             </div>
