@@ -4,11 +4,11 @@
 }
 
 body{
-    background-color: rgb(152, 190, 216);
+    background-color: #a3b18a;
 }
 /* colores y formato del navegador */
 nav{
-    background-color: #393e46;
+    background-color: #3a5a40;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
     justify-content: space-between;
     align-items: center;
@@ -49,7 +49,7 @@ nav a{
 }
 
 nav a:hover{
-    background-color: #558197;
+    background-color: #588157;
     border-radius: 50px;
 }
 
