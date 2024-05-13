@@ -50,3 +50,10 @@
 }
 /* Fin media queries para que sea responsivo
  */
+
+ .parrafo-lateral img {
+    margin-top: 30px;
+    margin-left: 90px;
+    max-width: 50%; /* Ajusta el tamaño máximo de la imagen al ancho del contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente según el ancho */
+}
