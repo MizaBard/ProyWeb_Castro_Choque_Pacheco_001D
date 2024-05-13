@@ -6,30 +6,24 @@
     font-style: italic; /* Agrega cursiva */
 }
 
-.container .container_box
-{
-    text-align: center;
+.container {
+    max-width: 600px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centra el formulario en la página */
+    padding: 0 20px; /* Espacio alrededor del formulario */
 }
 
-/*.container{
-    width: 500px;
-    background: rgba(115, 163, 26, 0.856);
-    margin: 12% auto;
-    padding: 50px 0;
-    color: #fff;
-    box-shadow:  0 0 20px 2px rgba(0,0,0,0.5);
-    border-radius: 5%;
-    justify-content: center;
-}.container.{
-    align-items: center;
-}
 .container .container_box {
-    display: flex;
-}
-.container .container_box label{
-    padding-left: 30px;
+    text-align: center;
+    margin-bottom: 20px; /* Espacio entre cada campo del formulario */
 }
 
-.container .container_box input{
-    justify-content: center;
-}*/
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%; /* Cambia el ancho máximo del formulario en pantallas más pequeñas */
+        padding: 0 10px; /* Reduce el espacio alrededor del formulario en pantallas más pequeñas */
+    }
+
+    .container .container_box {
+        text-align: left; /* Alinea los campos del formulario a la izquierda en pantallas más pequeñas */
+    }
+}
