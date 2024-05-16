@@ -1,2 +1,2 @@
-# Experiencia1_CastroChoquePacheco_001D
- Experiencia de aprendizaje 1 - Programacion Web - Duoc UC 2024
+# Experiencia2_CastroChoquePacheco_001D
+ Experiencia de aprendizaje 2 - Programacion Web - Duoc UC 2024
